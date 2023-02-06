@@ -1,4 +1,9 @@
 {
   "name": "vlctest",
-  "displayName": "vlctest"
+  "displayName": "vlctest",
+  "extra": {
+    "eas": {
+      "projectId": "d117e45b-88ae-4609-a63b-1de7620e887a"
+    }
+  }
 }
