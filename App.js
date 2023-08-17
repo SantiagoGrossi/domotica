@@ -47,7 +47,7 @@ class App extends Component {
 
   porton = () => {
   this.state.isWaiting = true;
-   fetch('http://181.44.190.169:81/LED=ON', {
+   fetch('http://181.116.78.50:81/LED=ON', {
            method: 'GET'
         })
         .then(response =>{
@@ -74,7 +74,7 @@ class App extends Component {
                                              hwDecoderEnabled: 1,
                                              hwDecoderForced: 1,
                                              uri:
-                                               'rtsp://sgrossi:12sgrossi34@181.44.190.169:554/cam/realmonitor?channel=1&subtype=0',
+                                               'rtsp://sgrossi:12sgrossi34@181.116.78.50:554/cam/realmonitor?channel=1&subtype=0',
                                              initOptions: [
                                                '--no-audio',
                                                '--rtsp-tcp',
@@ -87,7 +87,7 @@ class App extends Component {
                                            }}
                                            autoplay={true}
                                            autoAspectRatio={true}
-                                           resizeMode="cover"
+                                           resizeMode="fill"
                                            // videoAspectRatio={"4:3"}
                                            isLive={true}
                                            autoReloadLive={true}
@@ -103,7 +103,7 @@ class App extends Component {
                                              hwDecoderEnabled: 1,
                                              hwDecoderForced: 1,
                                              uri:
-                                             'rtsp://sgrossi:12sgrossi34@181.44.190.169:554/cam/realmonitor?channel=2&subtype=0',
+                                             'rtsp://sgrossi:12sgrossi34@181.116.78.50:554/cam/realmonitor?channel=2&subtype=0',
                                              initOptions: [
                                              '--no-audio',
                                              '--rtsp-tcp',
@@ -134,7 +134,7 @@ class App extends Component {
                                       hwDecoderEnabled: 1,
                                       hwDecoderForced: 1,
                                       uri:
-                                      'rtsp://sgrossi:12sgrossi34@181.44.190.169:554/cam/realmonitor?channel=3&subtype=0',
+                                      'rtsp://sgrossi:12sgrossi34@181.116.78.50:554/cam/realmonitor?channel=3&subtype=0',
                                       initOptions: [
                                       '--no-audio',
                                       '--rtsp-tcp',
@@ -162,7 +162,7 @@ class App extends Component {
                                       hwDecoderEnabled: 1,
                                       hwDecoderForced: 1,
                                       uri:
-                                      'rtsp://sgrossi:12sgrossi34@181.44.190.169:554/cam/realmonitor?channel=4&subtype=0',
+                                      'rtsp://sgrossi:12sgrossi34@181.116.78.50:554/cam/realmonitor?channel=4&subtype=0',
                                       initOptions: [
                                       '--no-audio',
                                       '--rtsp-tcp',
